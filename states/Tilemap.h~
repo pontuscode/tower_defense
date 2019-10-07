@@ -1,0 +1,13 @@
+#pragma once
+#include "Tile.h"
+#include <vector>
+
+class Tilemap
+{
+public:
+    Tilemap();
+    ~Tilemap();
+
+private:
+    std::vector<Tile*> tilemap;
+};
